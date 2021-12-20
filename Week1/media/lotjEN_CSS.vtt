@@ -1,0 +1,70 @@
+WEBVTT
+
+
+REGION
+id:LLL
+width:40%
+lines:3
+regionanchor:0%,100%
+viewportanchor:10%,90%
+scroll:up
+
+REGION
+id:RRR
+width:40%
+lines:3
+regionanchor:100%,100%
+viewportanchor:90%,90%
+scroll:up
+
+STYLE
+::cue {
+  background-image: color: black;
+}
+
+STYLE
+::cue(b) {
+  color: black;
+  }
+
+
+1
+00:00:00.000 --> 00:00:02.120 line:-1 align:center
+<v first> Now this, is the Law of The Jungle</v>
+
+2
+00:00:02.900 --> 00:00:05.200 line:-1 align:center
+<b>as old and as true as the sky</b>
+
+3
+00:00:06.150 --> 00:00:09.000 line:-1 align:center
+<p>And the wolf that shall keep will prosper</p>
+
+4
+00:00:09.050 --> 00:00:09.140 line:0 align:center
+<b>Arrow being released/b>
+
+5
+00:00:09.120 --> 00:00:11.160 line:-1 align:center
+<v first.loud>But the wolf that shall break it must die!</v>
+
+6
+00:00:11.160 --> 00:00:12.060 line:0 align:center
+<v first>Howling Wolf</v>
+
+7
+00:00:13.030 --> 00:00:15.150 line:-1 align:center
+<b>As the Creeper that girdles the tree trunk </b>
+
+8
+00:00:15.300 --> 00:00:17.200 region:-1 align:center
+<b>The law runneth foward and back </b>
+
+9
+
+00:00:18.000 --> 00:00:20.180 region:-1 align:center
+<b>And The strength of the pack is the Wolf </b>
+
+10
+00:00:21.000 --> 00:00:23.140 region:LLL align:center
+<b>The strength of the wolf is the pack  </b>

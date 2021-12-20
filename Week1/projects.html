@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Leveraging JavaScript</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/screen.css">
+		<link rel="stylesheet" href="css/lightbox.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/lightbox.min.js"></script>
+	</head>
+
+	<body>
+
+		<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index2.html">Home</a>
+    <a href="#section-a">About</a>
+    <a href="projects.html">Projects</a>
+
+
+  </div>
+
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰ </button>
+  </div>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+
+  <header id = "showcase">
+    <div class="img-circular">
+    </div>
+
+
+
+
+		<div class="content-area group section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- col -->
+					<div class="col col-md-8 push-down-sm">
+
+						<h2>Project gallery</h2>
+
+						<!-- thumbnails -->
+						<div class="thumbnails group">
+							<a href="images/graphicdesign2.png" data-lightbox="gallery" data-title="a Project on the modularity of font."><img src="images\gdesign2thumb.png" alt="Strawberry"></a>
+							<a href="images\graphicdesign1.png" data-lightbox="gallery"data-title="a Project on creating a pattern."><img src="images\gdesignthumb.png" alt="Dock"></a>
+							<a href="images\koidragon.jpg" data-lightbox="gallery" data-title="fairytale animation."><img src="images\koidragonthumb.jpg" alt="Bee"></a> <!-- replace jpg with video-->
+							<a source src="media\law-of-the-jungle-medp.mp4" data-lightbox="gallery" data-title="animated poem"><img src="images/lotjthumb.jpg" alt="Bear"></a>	<!-- replace jpg with video-->
+							<a href="images/lurklate.jpg" data-lightbox="gallery" data-title="we lurk late stanza animation"><img src="images/lurklatethumb.jpg" alt="Trees"></a>
+							<a href="images/publicservice.jpg" data-lightbox="gallery"><img src="images/publicservicethumb.jpg" alt="Squirrel"></a><!-- replace jpg with video-->
+							<a href="https://conceptsingamingfall2020.wordpress.com/2020/10/09/project-1-4/" data-lightbox="gallery"data-title="a design for a boardgame."><img src="images/spaceshipthumb.jpg" alt="Water"></a> <!-- replace jpg with url-->
+							<a href="https://conceptsingamingfall2020.wordpress.com/2020/12/04/final-project-after-impact/" data-lightbox="gallery" data-title="a design for a videogame."><img src="images/videogamesthumb.jpg" alt="Duck"></a> <!-- replace jpg with url-->
+						</div><!-- /thumbnails -->
+
+					</div><!-- /col -->
+
+					<!-- col -->
+
+
+				</div><!-- /row -->
+
+			</div><!-- /container -->
+
+		</div>
+
+
+
+
+	</body>
+
+</html>
